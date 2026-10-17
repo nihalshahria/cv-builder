@@ -1,0 +1,5 @@
+.venv/
+rendercv_output/*.typ
+rendercv_output/*.png
+
+.DS_Store
