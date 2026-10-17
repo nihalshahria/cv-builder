@@ -5,6 +5,7 @@ cv:
   location: Dhaka, Bangladesh
   email: nihalshahria@gmail.com
   phone: "+880 1646-767354"
+  website: https://nihalshahria.github.io
   social_networks:
     - network: LinkedIn
       username: nihalshahria
@@ -24,7 +25,7 @@ cv:
         end_date: present
         highlights:
           - Founding member of the core backend team. Developed an **event-driven microservice** from scratch (Go, Echo, PostgreSQL, Kafka, RabbitMQ, Redis) and established the team's REST API standards
-          - Built a **Web3 abstraction service** for Web2 services across **Ethereum, Polygon, Base, Solana and Tron**, with three-level transaction broadcasting, on-chain event capture, gas fee estimation, idempotency and fee calculation
+          - Built a **Web3 abstraction service** for Web2 services across **EVM, SVM and TVM chains**, with on-chain event capture, gas fee estimation, idempotency and fee calculation
           - Worked on every **vendor integration** and led several end to end in the team lead's absence, including exchange payments via **Bybit, OKX and Kraken**
           - Developed **KYC/KYB onboarding** with RFI handling and **on/off-ramp** flows as stateful, retry-safe workflows
           - Designed and implemented a comprehensive **webhook service**, including registration, delivery and management
@@ -74,7 +75,7 @@ cv:
       - label: Infra & Tools
         details: AWS, Kubernetes, Git, Playwright
       - label: Web3
-        details: Ethereum, Polygon, Base (EVM), Solana, Tron, ERC-20/SPL/TRC-20 tokens, USDC/USDT
+        details: EVM, SVM and TVM chains, ERC-20, SPL and TRC-20 tokens
       - label: Languages Spoken
         details: English (professional working proficiency), Bangla (native)
 

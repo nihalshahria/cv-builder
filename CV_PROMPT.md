@@ -12,13 +12,14 @@ Create a CV for me based on the information below.
 - **Phone:** +880 1646-767354
 - **LinkedIn:** https://linkedin.com/in/nihalshahria
 - **GitHub:** https://github.com/nihalshahria
+- **Portfolio:** https://nihalshahria.github.io
 - **Codeforces:** https://codeforces.com/profile/nihalshahria
 - **CodeChef:** https://www.codechef.com/users/nihalshahria
 - **StopStalk:** https://www.stopstalk.com/user/profile/nihalshahria
 
 ## What I'm Looking For
 
-I'm looking for new opportunities as a backend engineer, mainly in **Go (Golang)**, where I can also use my experience in **Web3**. I'm open to remote roles.
+I'm looking for new opportunities as a backend engineer, mainly in **Go (Golang)**, where I can also use my experience in **Web3**. I'm open to remote and hybrid roles.
 
 ## Work Experience
 
@@ -37,12 +38,11 @@ Fin.com is a fintech startup. I joined remotely as one of the members of the cor
 - **Payment flows:** exchange house and exchange-platform payments. I built a payment gateway module that lets customers pay from their exchange accounts: **Bybit, OKX and Kraken**.
 - All of these flows are **stateful**, so different states can be retried safely. Some parts I implemented alone, some as a team.
 - **Web3 abstraction service** (designed and implemented entirely by me): I learned Web3 for the first time at Fin.com and wrote a full service that abstracts Web3 for Web2 services. It covers:
-    - three-level transaction broadcasting
     - on-chain event capturing
     - gas fee estimation
     - idempotency, including transaction-level idempotency
     - transaction fee module (fee calculation)
-    - Chains: **Ethereum, Polygon, Base, Solana, Tron**, with native coins and tokens (ERC-20, SPL, TRC-20; USDC, USDT)
+    - Chains: **EVM, SVM and TVM chains**, with native coins and ERC-20, SPL and TRC-20 tokens
 - **Webhook service** (designed and implemented entirely by me): full webhook registration, delivery and management.
 - **Vendor integrations:** part of every vendor integration. When my leader and team lead were not available, I got the chance to lead some integrations end to end.
 - **Distributed tracing:** wrote a tracing mechanism for the whole microservice system, so a flow that starts in one service and passes through many others can be traced end to end.
@@ -122,7 +122,7 @@ Jan 2019 – Jan 2024 · **CGPA: 3.76 / 4.00**
 - **Databases & Messaging:** PostgreSQL, Redis, Kafka, RabbitMQ
 - **Architecture & APIs:** microservices, event-driven architecture, REST, gRPC, webhooks, distributed tracing
 - **Cloud & DevOps:** AWS, Kubernetes (learning), ArgoCD, Prometheus, Grafana, Git (advanced), GitHub, Linux, Windows
-- **Web3:** Ethereum, Polygon, Base, Solana, Tron, ERC-20/SPL/TRC-20 tokens, USDC/USDT, transaction broadcasting, gas estimation, on-chain event capture
+- **Web3:** EVM, SVM and TVM chains, ERC-20, SPL and TRC-20 tokens, transaction broadcasting, gas estimation, on-chain event capture
 - **Other:** Liquid templates, HTML-to-PDF, AI automation
 
 ## Personal Skills
