@@ -1,5 +1,7 @@
 .venv/
 rendercv_output/*.typ
 rendercv_output/*.png
+.build/
+__pycache__/
 
 .DS_Store

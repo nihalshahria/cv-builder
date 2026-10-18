@@ -1,0 +1,5 @@
+# General backend CV: base.yaml as-is.
+# Keep this PDF path unchanged; the portfolio links to it.
+settings:
+  render_command:
+    pdf_path: rendercv_output/Md_Shahria_Islam_Nihal_CV.pdf

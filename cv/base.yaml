@@ -4,7 +4,7 @@ cv:
   headline: Backend Software Engineer · Go · Microservices · Fintech & Web3
   location: Dhaka, Bangladesh
   email: nihalshahria@gmail.com
-  phone: "+880 1646-767354"
+  phone: '+880 1646-767354'
   website: https://nihalshahria.github.io
   social_networks:
     - network: LinkedIn
@@ -14,26 +14,26 @@ cv:
   sections:
     summary:
       - >-
-        Backend engineer with 2.5+ years of experience building event-driven microservices in **Go** for fintech and Web3
+        Backend engineer with 2.5+ years of experience building event-driven microservices, primarily in **Go**, for fintech and Web3
         at a fast-paced startup. Quick to pick up new domains; strong in data structures and algorithms.
 
     experience:
-      - company: "[Fin.com](https://fin.com/)"
+      - company: '[Fin.com](https://fin.com/)'
         position: Software Engineer L2
         location: Remote
         start_date: 2025-07
         end_date: present
         highlights:
           - Founding member of the core backend team. Developed an **event-driven microservice** from scratch (Go, Echo, PostgreSQL, Kafka, RabbitMQ, Redis) and established the team's REST API standards
-          - Built a **Web3 abstraction service** for Web2 services across **EVM, SVM and TVM chains**, with on-chain event capture, gas fee estimation, idempotency and fee calculation
-          - Worked on every **vendor integration** and led several end to end in the team lead's absence, including exchange payments via **Bybit, OKX and Kraken**
+          - Built a **Web3 abstraction service** for Web2 services across **EVM, SVM and TVM chains**, with transaction simulation, on-chain event capture, gas fee estimation, idempotency and fee calculation
+          - Worked on different **vendor integrations** and led several end to end in the team lead's absence, including exchange payments via **Bybit, OKX and Kraken**
           - Developed **KYC/KYB onboarding** with RFI handling and **on/off-ramp** flows as stateful, retry-safe workflows
           - Designed and implemented a comprehensive **webhook service**, including registration, delivery and management
           - Built **distributed tracing** to follow a single flow across all microservices
-          - Optimized **PostgreSQL** queries via indexing, N+1 fixes and rewriting heavy joins and subqueries
+          - Optimized **SQL** queries via indexing, N+1 fixes and rewriting heavy joins and subqueries
           - Built **AI automation** for issue creation, assignment and status updates, and for answering customer queries
 
-      - company: "[Therap Services Ltd.](https://www.therapservices.net/)"
+      - company: '[Therap Services Ltd.](https://www.therapservices.net/)'
         position: Software Engineer L1
         location: Dhaka, Bangladesh
         start_date: 2024-03
@@ -43,7 +43,7 @@ cv:
           - Shipped bug fixes and features in a large **Java monorepo** (Spring, Hibernate, React, jQuery)
           - Built **HTML-to-PDF** document generation on a JavaScript library, with a custom script adding custom CSS support
 
-      - company: "[Orbitax](https://orbitax.com/)"
+      - company: '[Orbitax](https://orbitax.com/)'
         position: Software Engineering Intern
         location: Dhaka, Bangladesh
         start_date: 2023-02
@@ -59,11 +59,11 @@ cv:
         location: Sylhet, Bangladesh
         start_date: 2019-01
         end_date: 2024-01
-        summary: "CGPA: 3.76 / 4.00"
+        summary: 'CGPA: 3.76 / 4.00'
 
     problem_solving_&_achievements:
-      - bullet: "Solved **1000+ problems**. Max ratings: [Codeforces](https://codeforces.com/profile/nihalshahria) 1400+, [CodeChef](https://www.codechef.com/users/nihalshahria) 1600+. Mentored junior batches in DSA"
-      - bullet: "**Top 5**, BRAC University National Hackathon 2021. Built a telemedicine app with booking and video calls"
+      - bullet: 'Solved **1000+ problems**. Max ratings: [Codeforces](https://codeforces.com/profile/nihalshahria) 1400+, [CodeChef](https://www.codechef.com/users/nihalshahria) 1600+. Mentored junior batches in DSA'
+      - bullet: '**Top 5**, BRAC University National Hackathon 2021. Built a telemedicine app with booking and video calls'
 
     skills:
       - label: Programming
@@ -99,15 +99,14 @@ design:
       hyperlink: true
       show_icons: true
       display_urls_instead_of_usernames: false
-      separator: ""
+      separator: ''
       space_between_connections: 0.4cm
 locale:
   language: english
   month_abbreviations: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
 settings:
   current_date: today
+  # Output paths are set per flavor (cv/flavors/*.yaml) and applied by build.py.
   render_command:
-    output_folder: rendercv_output
-    pdf_path: rendercv_output/Md_Shahria_Islam_Nihal_CV.pdf
     dont_generate_html: true
     dont_generate_markdown: true
